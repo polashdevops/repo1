@@ -18,7 +18,7 @@ spec:
       COPY simpleGET.bar /home/aceuser/bars
       RUN ace_compile_bars.sh
     git:
-      uri: 'https://github.com/ucubuk4T/4686.git'
+      uri: 'https://github.com/polashdevops/repo1.git'
   output:
     to:
       kind: ImageStreamTag

@@ -16,7 +16,6 @@ spec:
       FROM ibmcom/ace
       RUN mkdir bars
       COPY demo_http_polash.bar /home/aceuser/bars
-#       COPY simpleGET.bar /home/aceuser/bars
       RUN ace_compile_bars.sh
     git:
       uri: 'https://github.com/polashdevops/repo1.git'
